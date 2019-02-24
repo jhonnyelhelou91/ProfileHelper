@@ -19,16 +19,16 @@ PowerShell Helper scripts to manage PowerShell current user profiles.
 * Create the user profile if it does not exist <br />`If (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }`
 * Import the module in the PowerShell profile <br />`Import-Module -Path script_directory -ErrorAction SilentlyContinue`
 
-### Examples
+# Examples
 
-#### Add-Profile Example
+## Add-Profile Example
 Create current user profile for PowerShell if it does not exist
 <details>
    <summary>Create Profile</summary>
    <p>Add-Profile</p>
 </details>
 
-#### Import-Profile Example
+## Import-Profile Example
 Import 1 or more modules/scripts to current user PowerShell profile
 <details>
    <summary>Import Script to Profile</summary>
@@ -39,21 +39,21 @@ Import 1 or more modules/scripts to current user PowerShell profile
    <p>Import-Profile -Path "C:\git\PowerShell\"</p>
 </details>
 
-#### Update-Profile Example
+## Update-Profile Example
 Reload current user profile for PowerShell after modifying in imported modules/scripts or in profile
 <details>
    <summary>Update Profile</summary>
    <p>Update-Profile</p>
 </details>
 
-#### Add-NuGetProfile Example
+## Add-NuGetProfile Example
 Create current user NuGet profile for PowerShell if it does not exist
 <details>
    <summary>Create NuGet Profile</summary>
    <p>Add-NuGetProfile</p>
 </details>
 
-#### Import-NuGetProfile Example
+## Import-NuGetProfile Example
 Import 1 or more modules/scripts to current user PowerShell NuGet profile
 <details>
    <summary>Import Script to NuGet Profile</summary>
@@ -64,7 +64,7 @@ Import 1 or more modules/scripts to current user PowerShell NuGet profile
    <p>Import-NuGetProfile -Path "C:\git\PowerShell\"</p>
 </details>
 
-#### Update-Profile Example
+## Update-Profile Example
 Reload current user NuGet profile for PowerShell after modifying in imported modules/scripts or in NuGet profile
 <details>
    <summary>Update Profile</summary>
